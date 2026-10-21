@@ -1,0 +1,60 @@
+Indus signs matched: 546 (of 591 in the corpus; the rest have no glyph), each also mirrored
+
+| set | symbol | best distance (px) | closest Indus sign | skeleton length |
+|---|---|---|---|---|
+| H Hindu | swastika | 2.78 | 621 | 214 |
+| H Hindu | trishula | 2.08 | 83 | 127 |
+| H Hindu | lotus | 2.08 | 385 | 297 |
+| H Hindu | chakra | 1.31 | 818 (mirrored) | 396 |
+| H Hindu | shankha | 2.77 | 309 (mirrored) | 243 |
+| H Hindu | kalasha | 1.96 | 826 (mirrored) | 221 |
+| H Hindu | lingam | 2.78 | 272 (mirrored) | 198 |
+| H Hindu | damaru | 2.29 | 603 | 243 |
+| H Hindu | tripundra | 2.66 | 57 (mirrored) | 171 |
+| H Hindu | yantra | 2.29 | 845 (mirrored) | 454 |
+| C1 Christian | latin_cross | 1.39 | 31 (mirrored) | 87 |
+| C1 Christian | celtic_cross | 1.50 | 520 | 173 |
+| C1 Christian | chi_rho | 2.03 | 216 | 136 |
+| C1 Christian | ichthys | 2.64 | 545 (mirrored) | 128 |
+| C1 Christian | anchor | 2.21 | 500 (mirrored) | 166 |
+| C1 Christian | chalice | 2.00 | 611 | 195 |
+| C1 Christian | fleur | 2.08 | 385 | 136 |
+| C1 Christian | crown | 2.71 | 48 (mirrored) | 216 |
+| C1 Christian | heart | 3.37 | 786 | 194 |
+| C1 Christian | trefoil | 2.74 | 165 | 236 |
+| C2 Chinese | taijitu | 1.69 | 818 (mirrored) | 291 |
+| C2 Chinese | qian | 2.82 | 57 | 168 |
+| C2 Chinese | kun | 3.08 | 57 (mirrored) | 125 |
+| C2 Chinese | ding | 2.51 | 322 | 256 |
+| C2 Chinese | coin | 1.87 | 818 (mirrored) | 276 |
+| C2 Chinese | endless_knot | 1.49 | 424 (mirrored) | 347 |
+| C2 Chinese | cloud | 2.59 | 50 | 231 |
+| C2 Chinese | gourd | 2.32 | 590 (mirrored) | 169 |
+| C2 Chinese | fan | 2.20 | 785 (mirrored) | 305 |
+| C2 Chinese | bagua | 2.22 | 818 | 214 |
+| C3 Egyptian | ankh | 1.14 | 72 | 143 |
+| C3 Egyptian | was | 2.08 | 81 (mirrored) | 76 |
+| C3 Egyptian | djed | 1.72 | 513 | 220 |
+| C3 Egyptian | eye | 3.24 | 572 | 193 |
+| C3 Egyptian | scarab | 2.37 | 5 | 264 |
+| C3 Egyptian | shen | 2.49 | 634 (mirrored) | 211 |
+| C3 Egyptian | sun_disc | 0.73 | 790 | 164 |
+| C3 Egyptian | feather | 1.40 | 511 | 199 |
+| C3 Egyptian | crook | 2.22 | 83 (mirrored) | 103 |
+| C3 Egyptian | pyramid | 2.41 | 470 | 204 |
+
+## Primary statistic
+mean distance H 2.30 · controls (C1∪C2∪C3) 2.17 · difference +0.13 px
+  C1 Christian: 2.27
+  C2 Chinese: 2.28
+  C3 Egyptian: 1.98
+one-sided permutation p = 0.7253 (10,000 shuffles, seed 2026; small difference = H closer)
+DECISION (pre-registered rule): no excess resemblance found
+
+## Secondary: font baselines (10 random signs, 200 draws per font, seed 2026)
+  NotoSansEgyptianHieroglyphs: pool 120 signs, mean of 10-sign draws 2.27 ± 0.18; H's mean 2.30 is closer than 48% of draws
+  NotoSansAnatolianHieroglyphs: pool 120 signs, mean of 10-sign draws 2.29 ± 0.15; H's mean 2.30 is closer than 44% of draws
+  NotoSansLinearA: pool 120 signs, mean of 10-sign draws 2.44 ± 0.16; H's mean 2.30 is closer than 79% of draws
+
+## Confound: skeleton length vs distance (all 40)
+  correlation r = -0.07 (negative = simpler drawings land closer... positive = the reverse)

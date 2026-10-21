@@ -50,6 +50,16 @@ All figures come from `results/` and are rebuilt by `./run.sh`.
    text carry largely separate information, as expected if the animal is an emblem and the text a
    name or title.
 
+7. **Later Hindu sacred symbols do not resemble the signs more than other traditions' symbols do.**
+   A pre-registered blind test ([`blind/PREREGISTRATION.md`](blind/PREREGISTRATION.md)) drew 10 Hindu
+   sacred symbols and 10 each from Christian, Chinese and Egyptian tradition in one line style, and
+   let a computer find each one's closest Indus sign by skeleton shape. Mean distance: Hindu 2.30 px,
+   Christian 2.27, Chinese 2.28, Egyptian 1.98; one-sided permutation p = 0.73. Under the rule fixed
+   in advance this is **no excess resemblance found**. Random signs from real pictographic scripts
+   match about as well. Simple shapes (a circle with a cross, three lines) find look-alikes in every
+   tradition ([`blind/matches.png`](blind/matches.png)). This tests the script's signs only: the seal
+   pictures, where the scholarly case for continuity rests, are not in the data.
+
 The same grouping method was first run on Old Tamil, where the answer is known. It recovers letters
 that share a consonant strongly (11.8 sd above chance) and letters that share a vowel weakly (2.4 sd).
 It works, but only partly.
@@ -88,6 +98,7 @@ Needs Python 3 with `numpy` and `Pillow`. Every script runs offline once the dat
 | `src/shape_family.py` | `results/shape-family.txt`: code-distance test |
 | `src/motif.py` | `results/motif.txt`: text against the carved animal |
 | `src/render.py` | `results/*.png`: sign sheets |
+| `blind/symbols.py`, `blind/match.py` | `blind/drawings.png`, `blind/result.txt`, `blind/matches.png`: the blind symbols test |
 
 ## Data and credit
 
