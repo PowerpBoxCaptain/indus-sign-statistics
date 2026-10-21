@@ -273,3 +273,6 @@ Nair, arXiv:2604.17828 (2026); Tiwari, NLP4DH 2026.
 
 Code: GNU Affero General Public License v3.0 (`LICENSE`). Copyright © 2026 Capt. Anil Sharma.
 Rendered sign sheets in `results/` are drawn with the GPL-3.0 font above.
+The transcription `abroad/laursen-fig11-transcription.csv` is released under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (credit: Capt. Anil Sharma, indus-sign-statistics).
+It is our reading of the drawings in Laursen (2010, Fig. 11); the drawings themselves are Laursen's and are not reproduced here.
