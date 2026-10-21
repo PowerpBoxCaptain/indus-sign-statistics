@@ -1,0 +1,1 @@
+nearest neighbour (by shared context) has a code within ±10: 27/94 signs; shuffled-labels null 2.2±1.7; p≈0.002

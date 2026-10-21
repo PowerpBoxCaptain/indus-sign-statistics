@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Reproduce every result in results/ from the pinned inputs. Needs python3 with numpy and Pillow.
+set -euo pipefail
+cd "$(dirname "$0")"
+[ -f data/indus/population-script.sql ] || ./fetch_data.sh
+python3 -I src/structural.py data/indus/population-script.sql > results/structural.txt
+python3 -I src/compare.py . > results/compare.md
+python3 -I src/grammar_groups.py . > results/grammar-and-groups.md
+python3 -I src/shape_family.py . > results/shape-family.txt
+python3 -I src/render.py .
+echo "done: results/"

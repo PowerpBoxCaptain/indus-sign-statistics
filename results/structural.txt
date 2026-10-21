@@ -1,0 +1,61 @@
+== CORPUS
+seals 2543 · inscription rows 2543 · texts with signs 2536
+sign tokens 11135 · sign types 591
+direction field {'L/R': 103, 'R/L': 2433} · complete field {'Y': 2536}
+sites (texts): Mohenjo-daro 1201, Harappa 964, Lothal 80, Dholavira 74, Kalibangan 54, Chanhujo-daro 45, Nausharo 17, Banawali 12
+object type (texts): {'SEAL': 1469, 'TAB': 891, 'POT': 70, 'TAG': 63, 'ROD': 17, 'MISC': 13, 'IMPL': 8, 'BNGL': 4}
+
+== WORKING SET: complete texts 2536 → distinct sequences 1902
+length distribution: 1:16 2:256 3:352 4:355 5:363 6:238 7:162 8:68 9:49 10:22 11:10 12:4 13:6 17:1
+mean length 4.65 · max 17
+
+== FREQUENCY (distinct set): tokens 8839, types 591
+signs used once (hapax) 215 = 36% of types, 2.4% of tokens
+top 10 signs cover 33.5% of tokens
+top 50 signs cover 70.1% of tokens
+top 100 signs cover 83.4% of tokens
+top 200 signs cover 92.2% of tokens
+Zipf slope (log freq vs log rank, all types) -1.41
+top 15: 740:953 2:505 220:233 32:224 400:204 240:187 390:169 520:167 60:165 861:155 820:152 33:151 235:145 1:140 741:140
+
+== POSITION (IDX 0 = first stored sign; texts of length ≥2)
+  sign  740: n= 952 first   70% middle   30% last    0%
+  sign    2: n= 505 first    2% middle   96% last    2%
+  sign  220: n= 232 first    6% middle   84% last   10%
+  sign   32: n= 223 first    6% middle   69% last   25%
+  sign  400: n= 204 first   86% middle   13% last    0%
+  sign  240: n= 187 first    1% middle   79% last   20%
+  sign  390: n= 169 first   44% middle   52% last    4%
+  sign  520: n= 167 first   82% middle   17% last    1%
+  sign   60: n= 165 first    1% middle   98% last    1%
+  sign  861: n= 155 first    5% middle   25% last   71%
+  sign  820: n= 152 first    8% middle   16% last   76%
+  sign   33: n= 150 first    3% middle   79% last   18%
+  sign  235: n= 145 first    1% middle   64% last   35%
+  sign    1: n= 140 first    7% middle   89% last    4%
+  sign  741: n= 140 first    1% middle   89% last   10%
+  sign 740 in L/R texts: first 29, last 1 of 103
+  sign 740 in R/L texts: first 839, last 3 of 2408
+
+== REPETITION inside a text
+texts with a repeated sign 84/1902 = 4.4%
+adjacent doubles (same sign twice in a row) 15
+
+== PAIRS AND RUNS
+top bigrams: 2-861:119 2-817:94 400-740:88 2-820:72 740-760:70 740-100:66 90-740:63 33-705:56 740-176:53 60-920:50 220-32:49 390-590:45
+top trigrams: 740-390-590:31 741-60-920:28 740-100-415:23 520-33-705:23 690-435-255:21 220-32-2:20 740-690-435:20 740-32-840:17
+distinct bigram types 2919, of which seen once 2033
+
+== ENTROPY (bits). Plug-in estimates: small samples bias these low; compare like with like only.
+unigram H 6.92 · conditional H(next|prev) 3.86
+null A, order shuffled inside each text: 4.59 ± 0.02
+null B, signs shuffled across the corpus: 4.76 ± 0.02
+real is 41.5 sd below A and 53.4 sd below B
+
+== SITES (distinct complete texts per site, mean length, share of top-10 signs)
+  Mohenjo-daro    1014 texts · mean len 4.97 · top-10 share 33%
+  Harappa          637 texts · mean len 4.06 · top-10 share 35%
+  Dholavira         72 texts · mean len 4.24 · top-10 share 30%
+  Lothal            63 texts · mean len 4.40 · top-10 share 34%
+  Kalibangan        47 texts · mean len 4.09 · top-10 share 36%
+  Chanhujo-daro     44 texts · mean len 4.66 · top-10 share 36%
