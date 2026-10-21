@@ -1,0 +1,26 @@
+Reading order inferred: stored order reversed (jar sign text-final).
+
+== numerals (short strokes, rows): 14 signs, 335 occurrences
+   position in reading order: first 33% · middle 64% · last 3%
+   signs taking >=2 different class members AFTER them (Y after 3, 4...): 21
+   signs taking >=2 different class members BEFORE them (Y before 3, 4...): 21
+   asymmetry +0 · shuffled-order null -0.0 ± 4.7 (z +0.0) · frequency-matched other signs -2.9 ± 6.3 (z +0.5)
+   commonest signs right AFTER numerals (sign: numerals seen before it): 220: 3,4,6,14,16,17,55; 390: 3,4,5,15,16,17,18; 405: 3,4,5,16,17,18; 740: 5,7,16,17,55; 407: 3,4,5,16,17; 156: 3,4,5,19; 32: 14,15,27,55; 140: 3,5,15
+   commonest signs right BEFORE numerals: 2: 3,4,5,13,14,15,16,17,19,55; 1: 3,4,5,15,16,18,55; 31: 3,13,16,17,55; 60: 3,4,16,17,55; 240: 3,13,17,55; 741: 3,4,5,17; 503: 6,7,16,17; 220: 16,17,55
+
+== small ticks 1, 2: 2 signs, 645 occurrences
+   position in reading order: first 2% · middle 94% · last 3%
+   signs taking >=2 different class members AFTER them (Y after 3, 4...): 40
+   signs taking >=2 different class members BEFORE them (Y before 3, 4...): 21
+   asymmetry +19 · shuffled-order null -0.1 ± 5.4 (z +3.5) · frequency-matched other signs +2.0 ± 7.5 (z +2.3)
+
+== long strokes 31-35: 4 signs, 518 occurrences
+   position in reading order: first 25% · middle 69% · last 7%
+   signs taking >=2 different class members AFTER them (Y after 3, 4...): 38
+   signs taking >=2 different class members BEFORE them (Y before 3, 4...): 22
+   asymmetry +16 · shuffled-order null -0.3 ± 5.5 (z +3.0) · frequency-matched other signs +5.5 ± 10.6 (z +1.0)
+
+== position baseline (texts of 2+ signs; jar sign and the tick/stroke series excluded from controls)
+numerals: first 33.1%, last 3.0% (n=335)
+frequency-matched other signs: first 24.4% ± 9.1% (numerals z +1.0); last 15.9% ± 9.3% (numerals z -1.4)
+share of control sets with last-share as low as the numerals': 0.012

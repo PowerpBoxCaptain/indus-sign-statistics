@@ -60,9 +60,47 @@ All figures come from `results/` and are rebuilt by `./run.sh`.
    tradition ([`blind/matches.png`](blind/matches.png)). This tests the script's signs only: the seal
    pictures, where the scholarly case for continuity rests, are not in the data.
 
+8. **The pictures follow fixed rules, and some seals carry no writing at all.** 202 seals were coded
+   by eye from the photographic plates of the *Corpus of Indus Seals and Inscriptions*, vol. 1
+   (Joshi & Parpola 1987), 75 from Mohenjo-daro, 87 from Harappa and 40 from Lothal
+   ([`results/seal-coding-202.csv`](results/seal-coding-202.csv)). The cult stand appears only
+   before the one-horned bull (50 of 50 where readable); the trough only before bison, buffalo and
+   rhinoceros (14 of 14). Swastika seals (25 of 25) and geometric seals (14 of 14) never carry text;
+   animal seals and picture-less seals almost always do. Several Lothal seals have text along the top
+   and an empty field below, as if the text were cut first. The pages were chosen for variety, so
+   this is not a random sample of all seals, and the coding is one person's reading of photographs.
+
 The same grouping method was first run on Old Tamil, where the answer is known. It recovers letters
 that share a consonant strongly (11.8 sd above chance) and letters that share a vowel weakly (2.4 sd).
 It works, but only partly.
+
+## Toward the language (steps 1–3)
+
+What can be said about the language behind the signs, short of reading them?
+
+1. **Numbers come before what they count, weakly.** The short-stroke number signs (codes 3–7,
+   13–19, 27, 55) end a text in 3.0% of their uses, against 15.9% ± 9.3% for other signs of the same
+   frequency (only 1.2% of 500 control sets are as low). A second measure, which signs take several
+   different numbers on each side, is even (21 against 21). Numbers before nouns fits Dravidian,
+   Indo-Aryan and Munda alike, so this argues only against a Sumerian-type order, where numbers
+   follow. The result depends on the reading direction (right to left, taken from the jar sign's
+   text-final place). [`results/numerals.txt`](results/numerals.txt)
+2. **Ending patterns do not separate the candidate families.** Inside words, Vedic Sanskrit (written
+   syllables), Old Tamil (aksharas) and Santali (a Munda language, from the Santali Wikipedia) all make
+   the last unit the most predictable (0.68–0.76 of their own unit entropy) and none makes the
+   second-last predictable. In short phrases, the Indus end is more fixed than any of them (0.68
+   against 0.78–0.88) and its start less (1.02 against 0.81–0.89): a formula with a fixed close.
+   [`results/endings.md`](results/endings.md)
+3. **The outside record of the language is two names.** Sumerian texts describe Meluhha (the usual
+   identification of the Indus region) only in Sumerian words: "black land", highland *mes* timber,
+   carnelian, francolins, a bird called *ha-ia₃*, gold, tin-bronze, boats. A seal names "a translator
+   of the Meluhhan language". The two personal names Nanaza and Samar are, by the specialists' own
+   account (read here only secondhand), the only possible words of the language. Two names cannot
+   choose a family. [`results/meluhha-evidence.md`](results/meluhha-evidence.md)
+
+Taken together: order and position statistics can rule some kinds of language out, but they cannot
+choose between Dravidian, Indo-Aryan and Munda, which look alike on every measure tried. Choosing
+needs evidence about sounds, which the record does not yet hold.
 
 ## Limits
 
@@ -97,6 +135,9 @@ Needs Python 3 with `numpy` and `Pillow`. Every script runs offline once the dat
 | `src/grammar_groups.py` | `results/grammar-and-groups.md`: ends test and context groups |
 | `src/shape_family.py` | `results/shape-family.txt`: code-distance test |
 | `src/motif.py` | `results/motif.txt`: text against the carved animal |
+| `src/numerals.py`, `src/numeral_position.py` | `results/numerals.txt`: number signs and word order |
+| `src/step2_endings.py` | `results/endings.md`: ending patterns against Sanskrit, Tamil, Santali |
+| (by hand) | `results/seal-coding-202.csv`: picture coding of 202 seals; `results/meluhha-evidence.md`: sources on Meluhha, quote or null |
 | `src/render.py` | `results/*.png`: sign sheets |
 | `blind/symbols.py`, `blind/match.py` | `blind/drawings.png`, `blind/result.txt`, `blind/matches.png`: the blind symbols test |
 
@@ -111,6 +152,12 @@ No data is redistributed here; `fetch_data.sh` downloads each file from its sour
 | Tirukkural (original lines only) | [tk120404/thirukkural](https://github.com/tk120404/thirukkural) @ `cf3ff6c` | Apache-2.0 |
 | Chess openings | [lichess-org/chess-openings](https://github.com/lichess-org/chess-openings) @ `a6189a3` | CC0-1.0 |
 | *Pride and Prejudice* | [Project Gutenberg #1342](https://www.gutenberg.org/ebooks/1342) | public domain (US) |
+| Santali Wikipedia, dump of 2026-10-01 | [dumps.wikimedia.org/satwiki](https://dumps.wikimedia.org/satwiki/) | CC BY-SA 4.0 |
+
+Seal pictures were read from the plates of *Corpus of Indus Seals and Inscriptions*, vol. 1 (Joshi &
+Parpola 1987, Memoirs of the Archaeological Survey of India 86), as hosted by the Indira Gandhi
+National Centre for the Arts. No image or text of that volume is reproduced here, only our coding.
+Sumerian passages are quoted from the Electronic Text Corpus of Sumerian Literature (Oxford).
 
 The Indus sequences follow the Interactive Corpus of Indus Texts (ICIT) of Bryan K. Wells and Andreas
 Fuls, which rests on the corpora of Iravatham Mahadevan (1977) and Asko Parpola and colleagues (CISI).

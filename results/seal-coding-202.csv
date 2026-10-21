@@ -1,0 +1,203 @@
+cisi,pdf_page,animal,in_front,text,lines,condition,note
+M-5,40,unicorn,standard,yes,1,damaged,
+M-22,50,unicorn,standard,yes,1,good,
+M-23,50,unicorn,standard,yes,2,good,
+M-24,50,unicorn,standard,yes,1,good,
+M-25,51,unicorn,standard,yes,1,broken,forepart only
+M-26,51,unicorn,standard,yes,1,good,
+M-27,52,unicorn,standard,yes,1,good,
+M-28,52,unicorn,standard,yes,1,good,
+M-29,52,unicorn,standard,yes,1,good,
+M-30,53,unicorn,standard,yes,1,good,standard with leafy top
+M-31,53,unicorn,unclear,yes,1,damaged,front object broken away
+M-32,53,unicorn,standard,yes,1,good,
+M-33,54,unicorn,standard,yes,1,good,
+M-34,54,unicorn,standard,yes,1,good,
+M-218,92,unicorn,standard,yes,1,good,
+M-219,92,unicorn,standard,yes,1,damaged,
+M-220,92,unicorn,standard,yes,1,good,
+M-221,92,unicorn,standard,yes,1,damaged,
+M-222,92,unicorn,unclear,yes,1,damaged,
+M-223,92,unicorn,unclear,yes,1,good,impression looks doubled; front object not visible
+M-224,92,unicorn,standard,yes,1,good,
+M-225,93,unicorn,standard,yes,1,good,
+M-226,93,unicorn,standard,yes,1,good,
+M-227,93,unicorn,standard,yes,1,good,
+M-228,93,unicorn,standard,yes,1,good,
+M-229,93,unicorn,standard,yes,1,good,
+M-230,93,unicorn,standard,yes,1,good,
+M-231,93,unicorn,standard,yes,1,good,
+M-232,93,unicorn,standard,yes,1,broken,
+M-233,93,other,standard,no,0,broken,long-horned bovid ('urus' in heading) with a small human figure above; no text visible
+M-234,94,bison,trough,yes,2,good,
+M-235,94,bison,unclear,yes,1,damaged,
+M-236,94,bison,trough,yes,1,good,
+M-237,95,bison,trough,yes,1,broken,
+M-238,95,bison,unclear,yes,1,good,
+M-239,95,bison,trough,yes,1,good,
+M-287,106,tiger,none,unclear,0,broken,upper part lost
+M-288,106,tiger,unclear,yes,1,good,small object at the tiger's head on one impression
+M-289,106,tiger,other,yes,1,good,small low object in front of the feet
+M-290,106,tiger,none,yes,1,damaged,tiger looks back at a figure in a tree above it ('man-in-tree' scene)
+M-291,107,unclear,none,yes,2,damaged,mostly text; animal not identifiable
+M-292,107,gharial,none,yes,1,good,
+M-293,107,gharial,none,yes,1,good,
+M-294,107,animal group,none,yes,1,damaged,two animals one above the other
+M-295,108,joined animals,none,yes,1,broken,several tigers joined at the body
+M-296,108,joined animals,none,yes,1,good,two horned heads joined under a pipal-like tree
+M-297,109,joined animals,none,yes,1,good,serpentine joined bodies
+M-298,109,composite animal,none,unclear,0,good,bovid with a second animal's head; fish-like shape above
+M-299,109,composite animal,none,yes,1,broken,
+M-300,110,composite animal,none,yes,1,good,bull body with elephant trunk
+M-301,110,composite animal,none,yes,1,good,
+M-302,110,composite animal,none,yes,1,good,
+M-303,110,composite animal,none,yes,1,good,elephant-headed composite
+M-331,120,no iconography,none,yes,2,good,inscribed on several faces
+M-332,120,swastika,none,no,0,good,swastika only
+M-333,120,swastika,none,no,0,good,swastika only
+M-334,120,swastika,none,no,0,good,swastika only
+M-335,121,swastika,none,no,0,good,swastika only
+M-336,121,swastika,none,no,0,good,swastika only
+M-337,121,swastika,none,no,0,good,swastika only
+M-338,121,swastika,none,no,0,good,swastika only
+M-339,121,swastika,none,no,0,good,swastika only
+M-340,121,swastika,none,no,0,good,swastika only
+M-341,121,swastika,none,no,0,good,swastika only
+M-342,121,swastika,none,no,0,good,swastika only
+M-343,121,swastika,none,no,0,good,swastika only
+M-344,121,swastika,none,no,0,good,swastika only
+M-345,122,swastika,none,no,0,good,swastika only
+M-346,122,swastika,none,no,0,good,swastika only
+M-347,122,swastika,none,no,0,good,swastika only
+M-348,122,swastika,none,no,0,good,swastika only
+M-349,122,geometric,none,no,0,good,stepped cross
+M-350,122,geometric,none,no,0,good,concentric squares
+M-351,122,geometric,none,no,0,good,lattice
+M-352,123,geometric,none,no,0,good,cross with dotted circles
+H-2,194,unicorn,standard,yes,1,good,
+H-3,195,unicorn,standard,yes,1,damaged,
+H-4,196,unicorn,standard,yes,2,good,
+H-5,197,unicorn,standard,yes,1,good,
+H-6,198,unicorn,standard,yes,1,good,
+H-76,222,bison,trough,yes,1,good,
+H-77,222,bison,trough,yes,1,broken,
+H-78,222,bison,trough,yes,1,broken,
+H-79,222,bison,trough,yes,1,good,
+H-80,222,bison,trough,yes,1,good,
+H-81,222,bison,trough,yes,1,good,
+H-82,223,bison,unclear,yes,1,good,small; heading 'bison, zebu'
+H-83,223,zebu,none,no,0,damaged,humped bull; large oval and zigzag above, not script
+H-84,224,zebu,none,unclear,0,broken,
+H-85,224,buffalo,unclear,yes,1,broken,
+H-86,224,buffalo,unclear,yes,1,good,
+H-87,224,buffalo,trough,yes,1,good,
+H-88,224,rhinoceros,trough,yes,1,good,
+H-89,225,elephant,none,yes,1,good,
+H-90,225,elephant,none,yes,1,good,
+H-91,225,elephant,none,yes,1,good,
+H-92,225,elephant,none,yes,1,good,
+H-93,225,elephant,none,yes,1,good,two signs
+H-94,225,tiger,other,yes,1,good,low object at the feet; two signs
+H-95,226,hare,none,unclear,0,broken,
+H-96,226,composite animal,none,yes,1,good,
+H-97,226,anthropomorph,none,yes,1,damaged,row of about seven standing human figures
+H-98,226,other,none,yes,2,good,tree or standard beside a diamond
+H-99,226,other,none,no,0,good,incised scene (boat-like shape)
+H-100,227,no iconography,none,yes,1,damaged,
+H-101,227,no iconography,none,yes,1,good,
+H-102,227,unicorn,standard,yes,1,good,
+H-112,230,swastika,none,no,0,good,swastika only
+H-113,230,swastika,none,no,0,good,swastika only
+H-114,230,swastika,none,no,0,good,swastika only
+H-115,230,swastika,none,no,0,good,swastika only
+H-116,230,swastika,none,no,0,damaged,swastika only
+H-117,230,swastika,none,no,0,damaged,swastika only
+H-118,230,swastika,none,no,0,good,swastika only
+H-119,230,geometric,none,no,0,good,quartered parallel lines
+H-120,231,geometric,none,no,0,good,cross / stepped-cross design
+H-121,231,geometric,none,no,0,good,cross / stepped-cross design
+H-122,231,geometric,none,no,0,good,cross / stepped-cross design
+H-123,231,geometric,none,no,0,good,cross / stepped-cross design
+H-124,231,geometric,none,no,0,good,diagonal bands
+H-125,231,geometric,none,no,0,good,grid in frame
+H-126,231,geometric,none,no,0,good,grid
+H-127,231,geometric,none,no,0,good,lattice
+H-128,232,geometric,none,no,0,good,dotted circles
+H-129,232,no iconography,none,yes,1,good,bar seal; text only
+H-130,233,no iconography,none,yes,1,good,bar seal; text only
+H-131,233,no iconography,none,yes,1,good,bar seal; text only
+H-132,234,no iconography,none,yes,1,good,bar seal; text only
+H-133,234,no iconography,none,yes,1,good,bar seal; text only
+H-134,235,no iconography,none,yes,1,good,bar seal; text only
+H-135,235,no iconography,none,yes,1,good,bar seal; text only
+H-136,235,no iconography,none,yes,1,good,bar seal; text only
+H-137,235,no iconography,none,yes,1,good,bar seal; text only
+H-138,235,no iconography,none,yes,1,damaged,bar seal; text only
+H-139,236,no iconography,none,yes,1,good,text only
+H-140,236,no iconography,none,yes,1,good,text only
+H-141,236,no iconography,none,yes,1,good,text only
+H-142,236,no iconography,none,yes,1,good,text only
+H-143,236,no iconography,none,yes,1,good,text only
+H-144,237,no iconography,none,yes,1,good,text only
+H-145,237,no iconography,none,yes,1,good,text only
+H-146,237,no iconography,none,yes,1,good,text only
+H-147,237,no iconography,none,yes,1,good,text only
+H-148,237,no iconography,none,yes,1,good,text only
+H-149,237,no iconography,none,yes,1,good,text only
+H-150,237,no iconography,none,yes,1,good,text only
+H-151,238,no iconography,none,yes,1,good,text only
+H-152,238,no iconography,none,yes,1,good,text only
+H-153,238,no iconography,none,yes,1,good,text only
+H-154,238,no iconography,none,yes,1,good,text only
+H-155,238,no iconography,none,yes,1,good,text only
+H-156,238,no iconography,none,yes,1,good,text only
+H-157,238,no iconography,none,yes,1,good,text only
+H-158,238,no iconography,none,yes,1,good,text only
+H-159,238,no iconography,none,yes,1,good,text only
+H-160,239,no iconography,none,yes,1,good,text only
+H-161,239,no iconography,none,yes,1,good,text only
+H-162,239,no iconography,none,yes,1,good,text only
+H-163,240,anthropomorph,none,no,0,good,human figure above a tiger beside a tree
+H-164,240,no iconography,none,yes,1,damaged,text on a prism face
+H-165,240,swastika,none,no,0,good,T-shaped seal with swastika maze
+H-166,241,foreign,none,no,0,good,compartmented seal with spread-winged bird; heading 'foreign'
+L-17,279,unicorn,standard,yes,1,broken,
+L-18,279,unicorn,standard,yes,1,good,
+L-19,279,unicorn,standard,yes,1,damaged,
+L-20,279,unicorn,standard,yes,1,good,
+L-21,279,unicorn,standard,yes,1,good,
+L-22,280,unicorn,standard,yes,1,damaged,
+L-23,280,unicorn,standard,yes,1,damaged,
+L-24,280,unicorn,unclear,yes,1,broken,
+L-25,280,unicorn,unclear,yes,1,broken,
+L-26,280,unicorn,standard,yes,1,good,
+L-27,281,unicorn,standard,yes,2,damaged,
+L-28,281,unicorn,standard,yes,1,good,
+L-29,281,unicorn,standard,yes,1,good,
+L-30,281,unicorn,standard,unclear,0,broken,
+L-31,282,unclear,unclear,yes,1,broken,
+L-32,282,unclear,unclear,unclear,0,broken,
+L-33,282,unclear,unclear,unclear,0,broken,
+L-34,282,unclear,unclear,unclear,0,broken,
+L-35,282,unicorn,standard,yes,1,good,
+L-36,282,unicorn,standard,yes,1,good,
+L-37,282,unclear,unclear,yes,1,damaged,
+L-38,282,unicorn,standard,yes,1,good,
+L-39,282,unicorn,standard,yes,1,good,
+L-40,282,unclear,unclear,unclear,0,broken,
+L-41,283,unicorn,unclear,yes,1,damaged,
+L-42,283,unicorn,standard,yes,1,good,
+L-43,283,unicorn,standard,yes,1,broken,
+L-44,283,unclear,unclear,unclear,0,damaged,heading 'copper'
+L-45,284,bison,trough,yes,1,good,
+L-46,284,bison,trough,yes,1,broken,
+L-47,284,bison,unclear,yes,1,broken,
+L-52,286,no iconography,none,yes,1,damaged,large crude signs
+L-53,286,unclear,none,unclear,0,damaged,worn blank face
+L-54,286,no iconography,none,yes,1,damaged,signs at top; lower field empty
+L-55,286,no iconography,none,yes,1,damaged,signs at top; lower field empty
+L-56,287,no iconography,none,yes,1,good,large signs
+L-57,287,no iconography,none,yes,1,good,signs at top; lower field empty
+L-58,287,no iconography,none,yes,1,damaged,signs at top; lower field empty
+L-59,287,no iconography,none,yes,1,good,signs at top; lower field empty
+L-60,287,no iconography,none,yes,1,broken,

@@ -9,6 +9,9 @@ python3 -I src/grammar_groups.py . > results/grammar-and-groups.md
 python3 -I src/shape_family.py . > results/shape-family.txt
 python3 -I src/motif.py . > results/motif.txt
 python3 -I src/render.py .
+python3 -I src/numerals.py . > results/numerals.txt
+python3 -I src/numeral_position.py . >> results/numerals.txt
+python3 -I src/step2_endings.py . > results/endings.md
 python3 -I blind/symbols.py .
 python3 -I blind/match.py . > /dev/null
 echo "done: results/"

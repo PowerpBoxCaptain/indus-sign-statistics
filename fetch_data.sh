@@ -6,7 +6,7 @@ cd "$(dirname "$0")"
 mkdir -p data/indus data/compare
 
 get() {  # get <url> <dest> <sha256>
-  curl -fsSL --retry 2 -m 120 -o "$2" "$1"
+  curl -fsSL --retry 2 -m 600 -A "indus-sign-statistics (github.com/PowerpBoxCaptain/indus-sign-statistics)" -o "$2" "$1"
   echo "$3  $2" | sha256sum -c --quiet || { echo "checksum mismatch: $2" >&2; exit 1; }
   echo "ok  $2"
 }
@@ -30,3 +30,7 @@ get $CH/e.tsv data/compare/chess_e.tsv 48c6f6645b031a5937c8386839debab0e2e488372
 # Project Gutenberg can re-issue a file with a new header; if this check fails, the text itself is unchanged
 # but the comparison numbers for English may move slightly.
 get https://www.gutenberg.org/cache/epub/1342/pg1342.txt data/compare/english.txt 3f6bb9d6f78e0293b56acd4714dd68cb7d6d1d293402031ce9d5a216bcaf9d75
+
+# Santali (a Munda language) for step 2: the Santali Wikipedia dump of 1 Oct 2026, CC BY-SA 4.0 (30 MB).
+get https://dumps.wikimedia.org/satwiki/20261001/satwiki-20261001-pages-articles.xml.bz2 \
+    data/compare/satwiki-latest-pages-articles.xml.bz2 42848317d1f88065ac9dd836af4b96eb1c59d237309627cfe8c636c0b65843e2
