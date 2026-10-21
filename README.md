@@ -86,7 +86,7 @@ The same grouping method was first run on Old Tamil, where the answer is known. 
 that share a consonant strongly (11.8 sd above chance) and letters that share a vowel weakly (2.4 sd).
 It works, but only partly.
 
-## Toward the language (steps 1–5)
+## Toward the language (steps 1–6)
 
 What can be said about the language behind the signs, short of reading them?
 
@@ -130,6 +130,17 @@ What can be said about the language behind the signs, short of reading them?
    sign or a numbered name acting as one word, with counting in a different kind of text. The numbers
    are small (32 uses; each frame seen 2 to 5 times) and the reading direction is inferred, so this is
    a pattern, not a proven grammar. [`results/numbered-names.txt`](results/numbered-names.txt)
+6. **The slot before the jar is an open class with a bound core.** 35% of distinct texts end with the
+   jar. The unit before it is filled 665 times by 161 different units, half of them seen there only
+   once, as a slot for names or identifiers would be. A core of 36 signs stands there far more often
+   than chance: sign 760 in 61 of its 77 uses (z +29.8), and 752, 772 and 773 almost always; several of
+   the strongest are U-shaped, vessel-like signs. In texts that do not end with the jar, these signs end
+   the text less often than other signs (17% against 27%), so they need the jar after them, like a stem
+   with its fixed ending. The counted signs 390 and 405 are the exception: in jar-less texts they end
+   the text 62% and 79% of the time. Two endings, then: an open-class unit plus the jar, or a number
+   plus a counted sign without it. The jar behaves as a closing element bound to what precedes it,
+   which fits a case ending or title marker, and equally a closing formula in a code.
+   [`results/prejar-slot.md`](results/prejar-slot.md), [`results/prejar-slot-signs.png`](results/prejar-slot-signs.png)
 
 Taken together: order and position statistics can rule some kinds of language out, but they cannot
 choose between Dravidian, Indo-Aryan and Munda, which look alike on every measure tried. Choosing
@@ -172,6 +183,7 @@ Needs Python 3 with `numpy` and `Pillow`. Every script runs offline once the dat
 | `src/step2_endings.py` | `results/endings.md`: ending patterns against Sanskrit, Tamil, Santali |
 | `src/number_anchor.py` | `results/number-anchor.md`, `results/number-anchor-signs.png`: signs that follow numbers |
 | `src/numbered_names.py` | `results/numbered-names.txt`: fixed number compounds and the slot before the jar |
+| `src/prejar_slot.py` | `results/prejar-slot.md`, `results/prejar-slot-signs.png`: every filler of the slot before the jar |
 | `src/picture_test.py` | `results/picture-test.txt`: repeated texts, text slots and object types against the carved animal |
 | (by hand) | `results/seal-coding-202.csv`: picture coding of 202 seals; `results/meluhha-evidence.md`: sources on Meluhha, quote or null |
 | `src/render.py` | `results/*.png`: sign sheets |
