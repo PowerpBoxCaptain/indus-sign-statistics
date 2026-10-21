@@ -1,0 +1,9 @@
+motif labels (raw counts, objects): [('Bull1', 1019), ('Gaur', 88), ('Othr', 56), ('Elep', 51), ('Bult', 44), ('Zebu', 44), ('Gavi', 40), ('Mult', 39), ('Phyt', 27), ('Rhin', 23), ('Fish', 21), ('Goat', 19), ('Scene', 16), ('Buff', 15)]
+motifs with >= 25 distinct texts: {'Bull1': 913, 'Gaur': 86, 'Zebu': 43, 'Bult': 34, 'Elep': 33, 'Mult': 25}
+sign-motif mutual information 0.188 bits vs shuffled motifs 0.175±0.007 (1.9 sd)
+  Bull1      n= 913  most over-used signs: 95 x1.2 (5), 906 x1.2 (7), 880 x1.2 (5), 812 x1.2 (5)
+  Gaur       n=  86  most over-used signs: 55 x3.1 (5), 503 x3.0 (5), 100 x2.3 (8), 1 x1.9 (11)
+  Zebu       n=  43  most over-used signs: 520 x1.9 (9), 820 x1.6 (6), 31 x1.5 (5), 60 x1.3 (6)
+  Bult       n=  34  most over-used signs: 400 x4.9 (10), 32 x1.3 (5), 740 x1.0 (17)
+  Elep       n=  33  most over-used signs: 861 x2.0 (6), 520 x1.7 (6), 2 x1.3 (14), 220 x1.1 (5)
+  Mult       n=  25  most over-used signs: 400 x6.0 (9), 740 x0.6 (8)

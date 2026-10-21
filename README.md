@@ -42,6 +42,14 @@ All figures come from `results/` and are rebuilt by `./run.sh`.
    fish with and without added marks, cone, branch, jar and figure variants. Modifiers change a sign
    without moving it out of its slot.
 
+6. **The text barely depends on the picture.** Pairing each distinct text with the animal carved on
+   its object (the dataset's own iconography labels; six motifs with at least 25 texts), the
+   sign-motif mutual information is 0.188 bits against 0.175 ± 0.007 for shuffled motifs, only
+   1.9 sd above chance. The label "Bull1" alone carries 913 of the 1,134 texts (most likely the one-horned bull, the commonest
+   seal animal; the dump does not define its labels). Picture and
+   text carry largely separate information, as expected if the animal is an emblem and the text a
+   name or title.
+
 The same grouping method was first run on Old Tamil, where the answer is known. It recovers letters
 that share a consonant strongly (11.8 sd above chance) and letters that share a vowel weakly (2.4 sd).
 It works, but only partly.
@@ -78,6 +86,7 @@ Needs Python 3 with `numpy` and `Pillow`. Every script runs offline once the dat
 | `src/compare.py` | `results/compare.md`: the same-size comparison table |
 | `src/grammar_groups.py` | `results/grammar-and-groups.md`: ends test and context groups |
 | `src/shape_family.py` | `results/shape-family.txt`: code-distance test |
+| `src/motif.py` | `results/motif.txt`: text against the carved animal |
 | `src/render.py` | `results/*.png`: sign sheets |
 
 ## Data and credit
