@@ -70,6 +70,18 @@ All figures come from `results/` and are rebuilt by `./run.sh`.
    and an empty field below, as if the text were cut first. The pages were chosen for variety, so
    this is not a random sample of all seals, and the coding is one person's reading of photographs.
 
+9. **Seal texts are individual, and the animal does not follow the text.** Of 1,469 seals with text,
+   88% carry a text found on no other object, while 65% of tablets share their text with another
+   tablet, as moulded series would. Of 40 texts found on two or more seals, 82% keep the same animal
+   on every copy, but shuffling the animal labels gives 84% ± 2% (the one-horned bull is 85% of
+   seals), so a text does not stay with its animal more than chance; 7 texts appear with different
+   animals, for example on a one-horned-bull seal and an elephant seal. No part of the text (opening
+   sign, closing sign, middle) is clearly tied to the animal. This fits a text that identifies an
+   individual and an emblem that does not belong to that individual, such as a sign of office or kind
+   of business, better than a personal clan sign. It is a reading, not a proof: the one-horned bull's
+   dominance limits the test, and the animal labels are the dataset's own (checked against the corpus
+   plate headings for the joinable cases). [`results/picture-test.txt`](results/picture-test.txt)
+
 The same grouping method was first run on Old Tamil, where the answer is known. It recovers letters
 that share a consonant strongly (11.8 sd above chance) and letters that share a vowel weakly (2.4 sd).
 It works, but only partly.
@@ -137,6 +149,7 @@ Needs Python 3 with `numpy` and `Pillow`. Every script runs offline once the dat
 | `src/motif.py` | `results/motif.txt`: text against the carved animal |
 | `src/numerals.py`, `src/numeral_position.py` | `results/numerals.txt`: number signs and word order |
 | `src/step2_endings.py` | `results/endings.md`: ending patterns against Sanskrit, Tamil, Santali |
+| `src/picture_test.py` | `results/picture-test.txt`: repeated texts, text slots and object types against the carved animal |
 | (by hand) | `results/seal-coding-202.csv`: picture coding of 202 seals; `results/meluhha-evidence.md`: sources on Meluhha, quote or null |
 | `src/render.py` | `results/*.png`: sign sheets |
 | `blind/symbols.py`, `blind/match.py` | `blind/drawings.png`, `blind/result.txt`, `blind/matches.png`: the blind symbols test |

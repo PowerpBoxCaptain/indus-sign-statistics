@@ -1,0 +1,19 @@
+seals with text and a picture label: 1102 · labels kept (>=15 seals): {'Bull1': 939, 'Gaur': 76, 'Zebu': 39, 'Elep': 28, 'Rhin': 20}
+
+== P1 texts (2+ signs) found on 2+ seals: 40 texts on 105 seals
+   copies all carrying the same animal: 82% · shuffled labels 84% ± 2% · z -0.7 · p ≈ 1.0000
+   texts whose copies carry different animals: 7; examples: 700-892 → Bull1/Elep; 3-140-100-740 → Bull1/Zebu; 3-390 → Bull1/Zebu; 910-740 → Bull1/Gaur
+
+== P2 link between text slot and animal (1044 distinct text-animal pairs; mutual information vs shuffled animals)
+   opening sign  n= 1044  MI 0.344 vs 0.343 ± 0.017  excess +0.001  z +0.1
+   closing sign  n= 1044  MI 0.207 vs 0.176 ± 0.016  excess +0.031  z +2.0
+   closing pair  n= 1043  MI 0.544 vs 0.521 ± 0.020  excess +0.023  z +1.1
+   middle signs  n= 3128  MI 0.172 vs 0.157 ± 0.008  excess +0.015  z +2.0
+
+== P3 text by object type (all objects with text)
+   SEAL  objects  1469 · mean length 4.83 · distinct texts  1363 · share of objects whose text recurs 12%
+   TAB   objects   891 · mean length 3.83 · distinct texts   458 · share of objects whose text recurs 65%
+   POT   objects    70 · mean length 2.70 · distinct texts    64 · share of objects whose text recurs 17%
+   TAG   objects    63 · mean length 4.60 · distinct texts    38 · share of objects whose text recurs 49%
+   ROD   objects    17 · mean length 3.71 · distinct texts    14 · share of objects whose text recurs 35%
+   MISC  objects    13 · mean length 3.38 · distinct texts    13 · share of objects whose text recurs 0%
