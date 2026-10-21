@@ -170,6 +170,35 @@ Taken together: order and position statistics can rule some kinds of language ou
 choose between Dravidian, Indo-Aryan and Munda, which look alike on every measure tried. Choosing
 needs evidence about sounds, which the record does not yet hold.
 
+## Relation to prior work
+
+Most of the structural findings above re-derive results that were already published or found in
+parallel, and should be read as independent replications rather than discoveries:
+
+| here | prior or parallel work |
+|---|---|
+| findings 1–4 (structure, signs keeping places, the jar ending, comparison with languages) | Mahadevan 1977; Rao et al. 2009; Yadav et al. 2010; Koshy 2026 (§8–9, with Linear B, Sumerian and Egyptian, size-matched) |
+| finding 5 (look-alike signs behave alike) | Koshy 2026 (§4: a weak but real agreement between shape and behaviour) |
+| findings 6, 9 (text independent of the animal) | Koshy 2026 (§4), and Marshall (1931), who already reported the same inscription over different animals |
+| finding 9 (seal texts individual) | Kriger & Hunt 2026; Koshy 2026 (95% of Mohenjo-daro seal texts unique) |
+| steps 1 and 4 (number signs) | Mahadevan; Kriger & Hunt 2026; Koshy 2026 (§6: short strokes go mainly with "forked stem" signs, our 390/405/407) |
+| step 2 (suffixing cannot be told from a phrase-final formula) | Koshy 2026 (§14) reaches the same conclusion |
+| steps 5–6 (the slot before the jar) | Koshy 2026 (§5, §8: the pre-final sign and the ending behave as one unit; the slot is open) |
+| step 7 (the "twins" opening abroad) | Parpola 1994; Laursen 2010; Koshy 2026 (finding 5) |
+
+What, as far as we could find, is not already in these sources: the pre-registered blind test of
+Hindu sacred symbols (finding 7), the shortfall of jar endings on Gulf Type seals measured against home
+texts (step 7), the particular fixed number compounds 7 + 585, 7 + 575 and 3 + 423 as fillers of the
+slot before the jar (step 5), and the inclusion of a Munda language (Santali) in the endings test
+(step 2). The reading direction used throughout (right to left) follows the literature and Mackay's own
+statement; none of our statistics can confirm a direction, since they would read the same way reversed.
+
+Koshy, N. S. (2026). *Indus script: machine-readable seal catalogues from Mackay (1938) and Marshall
+(1931), with photo-coded text features and a reproducible analysis pipeline.* Zenodo,
+[10.5281/zenodo.22852769](https://doi.org/10.5281/zenodo.22852769). Kriger, C. & Hunt (2026),
+"Positional constraints, sequence uniqueness, and stroke numerals in Indus seal inscriptions from
+Mohenjo-Daro" (as cited by Koshy; not read here).
+
 ## Limits
 
 - **Direction.** The sign order is taken as stored. That the stored start is the reading end (the
