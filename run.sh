@@ -14,6 +14,7 @@ python3 -I src/numeral_position.py . >> results/numerals.txt
 python3 -I src/step2_endings.py . > results/endings.md
 python3 -I src/picture_test.py . > results/picture-test.txt
 python3 -I src/number_anchor.py . > results/number-anchor.md
+python3 -I src/numbered_names.py . > results/numbered-names.txt
 python3 -I blind/symbols.py .
 python3 -I blind/match.py . > /dev/null
 echo "done: results/"

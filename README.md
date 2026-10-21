@@ -86,7 +86,7 @@ The same grouping method was first run on Old Tamil, where the answer is known. 
 that share a consonant strongly (11.8 sd above chance) and letters that share a vowel weakly (2.4 sd).
 It works, but only partly.
 
-## Toward the language (steps 1–4)
+## Toward the language (steps 1–5)
 
 What can be said about the language behind the signs, short of reading them?
 
@@ -119,6 +119,17 @@ What can be said about the language behind the signs, short of reading them?
    less often than chance. Most of these pairs are on seals rather than tablets, which fits counts and
    numbered names inside identifiers better than bookkeeping. Shapes are described here, not read.
    [`results/number-anchor.md`](results/number-anchor.md), [`results/number-anchor-signs.png`](results/number-anchor-signs.png)
+
+5. **A slot before the closing jar holds one unit, sometimes a numbered name.** Only three fixed
+   number compounds exist: 7 + 585 (15 uses), 7 + 575 (12) and 3 + 423 (5); the 7 appears both as
+   seven strokes in a row and as 4 + 3 in two rows. In about half their uses exactly one sign follows
+   them, and the sign after them is the jar 72% of the time. Counted pairs (a number + 390, 220 and so
+   on) behave differently: they end the text themselves in 62% of uses and are followed by the jar only
+   15% of the time. Where 7 + 585 stands in the frame "33 _ jar", single signs (923, 760, 176, 904)
+   also stand. This suggests a frame of the form [...] [one unit] [jar], where the unit is a single
+   sign or a numbered name acting as one word, with counting in a different kind of text. The numbers
+   are small (32 uses; each frame seen 2 to 5 times) and the reading direction is inferred, so this is
+   a pattern, not a proven grammar. [`results/numbered-names.txt`](results/numbered-names.txt)
 
 Taken together: order and position statistics can rule some kinds of language out, but they cannot
 choose between Dravidian, Indo-Aryan and Munda, which look alike on every measure tried. Choosing
@@ -160,6 +171,7 @@ Needs Python 3 with `numpy` and `Pillow`. Every script runs offline once the dat
 | `src/numerals.py`, `src/numeral_position.py` | `results/numerals.txt`: number signs and word order |
 | `src/step2_endings.py` | `results/endings.md`: ending patterns against Sanskrit, Tamil, Santali |
 | `src/number_anchor.py` | `results/number-anchor.md`, `results/number-anchor-signs.png`: signs that follow numbers |
+| `src/numbered_names.py` | `results/numbered-names.txt`: fixed number compounds and the slot before the jar |
 | `src/picture_test.py` | `results/picture-test.txt`: repeated texts, text slots and object types against the carved animal |
 | (by hand) | `results/seal-coding-202.csv`: picture coding of 202 seals; `results/meluhha-evidence.md`: sources on Meluhha, quote or null |
 | `src/render.py` | `results/*.png`: sign sheets |
