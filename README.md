@@ -86,7 +86,7 @@ The same grouping method was first run on Old Tamil, where the answer is known. 
 that share a consonant strongly (11.8 sd above chance) and letters that share a vowel weakly (2.4 sd).
 It works, but only partly.
 
-## Toward the language (steps 1–3)
+## Toward the language (steps 1–4)
 
 What can be said about the language behind the signs, short of reading them?
 
@@ -109,6 +109,16 @@ What can be said about the language behind the signs, short of reading them?
    of the Meluhhan language". The two personal names Nanaza and Samar are, by the specialists' own
    account (read here only secondhand), the only possible words of the language. Two names cannot
    choose a family. [`results/meluhha-evidence.md`](results/meluhha-evidence.md)
+
+4. **Numbers are used two ways: counting, and fixed numbered names.** Taking the signs that follow a
+   number far more often than chance (order shuffled inside each text, 500 times), one group takes
+   many different values, as counted things would: 390 (a forked branch) after 3 to 8, z +9.7; 220
+   after 3 to 9; 405 and 407 (branches with twigs) after 3 to 8; 900 (an arc) after 3 to 5; 156,
+   mostly on tablets. Another group always takes the same value, like a fixed name: 585 follows 7 in
+   15 of its 25 uses, 575 always follows 7, 423 always follows 3. The jar sign is preceded by a number
+   less often than chance. Most of these pairs are on seals rather than tablets, which fits counts and
+   numbered names inside identifiers better than bookkeeping. Shapes are described here, not read.
+   [`results/number-anchor.md`](results/number-anchor.md), [`results/number-anchor-signs.png`](results/number-anchor-signs.png)
 
 Taken together: order and position statistics can rule some kinds of language out, but they cannot
 choose between Dravidian, Indo-Aryan and Munda, which look alike on every measure tried. Choosing
@@ -149,6 +159,7 @@ Needs Python 3 with `numpy` and `Pillow`. Every script runs offline once the dat
 | `src/motif.py` | `results/motif.txt`: text against the carved animal |
 | `src/numerals.py`, `src/numeral_position.py` | `results/numerals.txt`: number signs and word order |
 | `src/step2_endings.py` | `results/endings.md`: ending patterns against Sanskrit, Tamil, Santali |
+| `src/number_anchor.py` | `results/number-anchor.md`, `results/number-anchor-signs.png`: signs that follow numbers |
 | `src/picture_test.py` | `results/picture-test.txt`: repeated texts, text slots and object types against the carved animal |
 | (by hand) | `results/seal-coding-202.csv`: picture coding of 202 seals; `results/meluhha-evidence.md`: sources on Meluhha, quote or null |
 | `src/render.py` | `results/*.png`: sign sheets |
