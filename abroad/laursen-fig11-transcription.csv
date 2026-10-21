@@ -1,0 +1,30 @@
+seal,laursen_group,findspot,use,tokens_reading_order,first,last,confidence,notes
+1,Group 1,Indus Valley (found at home),home-find,OTHER:framed-box|OTHER:trident-fork|OTHER:comb-on-stroke|FISH|TICK,OTHER,TICK,medium,Gulf Type found in the Indus Valley
+3,Group 1,Indus Valley (found at home),home-find,OTHER:oval-with-spokes|OTHER:tick-pair-and-stroke|OTHER:oval|OTHER:man-with-arrow|OTHER:box-with-ticks|NUM8,OTHER,NUM,medium,Gulf Type found in the Indus Valley
+4,Group 1,Indus Valley (found at home),home-find,MAN|TICK,MAN,TICK,low,broken; man with three-pronged head
+5,Group 1,Indus Valley (found at home),home-find,OTHER:double-oval|OTHER:man-holding-object|TICK,OTHER,TICK,medium,Gulf Type found in the Indus Valley
+2,Group 3,Indus Valley (found at home),home-find,LONG3|OTHER:funnel-Y|TICK|OTHER:crossed-figure|OTHER:house-comb,LONG,OTHER,medium,Gulf Type found in the Indus Valley
+14,Group 2,Iran,abroad,MAN|OTHER:flag|OTHER:man-round-head|OTHER:trident-fork|OTHER:ladder-in-box|JAR?,MAN,JAR?,medium,partly broken at right; last sign a plain U (jar-like?)
+15,Group 2,Iran,abroad,TW|OTHER:double-oval|OTHER:comb-on-stick-with-ring|OTHER:oval-with-lines,TW,OTHER,high,starts with twins
+28,Group 2,Iran,exclude,,,,,Linear Elamite signs: not Indus script
+12,PCA outlier,Failaka,abroad,MAN|TICK|OTHER:U-with-crossbar|OTHER:half-oval-with-bar,MAN,OTHER,low,broken both ends
+13,PCA outlier,Failaka,abroad,OTHER:box-with-man|OTHER:jar-with-ticks|OTHER:heart|OTHER:crescent-figure,OTHER,OTHER,low,pictorial elements below the signs; order uncertain
+10,PCA outlier,Bahrain,abroad,OTHER:broken|OTHER:striped-oval|NUM12|OTHER:man-with-branch|MAN|NUM9,OTHER,NUM,low,broken at right
+24,PCA outlier,Mesopotamia (Ur),abroad,FISH|MAN|MAN|OTHER:ladder-in-box|OTHER:box-with-stroke,FISH,OTHER,medium,large abnormal seal; Laursen: twins visually dominant (drawn as two separate men)
+6,Group 3,Bahrain,abroad,TW,TW,TW,low,only the twins survive; rest broken
+7,Group 3,Bahrain,abroad,TW|NUM12|OTHER:two-ticks|OTHER:sun-rayed-circle,TW,OTHER,high,starts with twins
+8,Group 3,Bahrain,abroad,TW|LONG1|OTHER:hourglass-triangles|FISH,TW,FISH,high,starts with twins
+9,Group 3,Bahrain,abroad,NUM12|FISH|TW|TICK|MAN|LONG1,NUM,LONG,high,twins inside the text
+11,Group 3,Bahrain,abroad,TW|LONG2|LONG4,TW,LONG,high,pseudo-inscription (Laursen): twins then random strokes
+56,Group 3,Bahrain,exclude,,,,,two V signs around a pictorial bull: no text
+16,Group 3,Mesopotamia,abroad,OTHER:hook-sign|FISH|OTHER:striped-crescent|OTHER:comb-with-hook|OTHER:man-with-stroke,OTHER,OTHER,medium,
+17,Group 3,Mesopotamia,abroad,OTHER:oval|MAN|OTHER:branch|TICK|LONG1,OTHER,LONG,low,broken at left
+18,Group 3,Mesopotamia,abroad,MAN|OTHER:trident-fork,MAN,OTHER,low,broken at left
+19,Group 3,Mesopotamia,abroad,MAN,MAN,MAN,low,only one sign survives
+20,Group 3,Mesopotamia,abroad,OTHER:man-with-dot|NUM3|OTHER:fish-tail-loop,OTHER,OTHER,medium,
+21,Group 3,Mesopotamia,abroad,OTHER:rake(ICIT 415?)|OTHER:leaf-in-oval(ICIT 803)|TICK(ICIT 001)|OTHER:box-with-strokes|NUM5,OTHER,NUM,high,opening read as ICIT 415-803-001 (rake; leaf in oval; single stroke)
+22,Group 3,Mesopotamia,abroad,OTHER:fish-crossed|OTHER:ticks|OTHER:comb-in-leaf|OTHER:gourd|JAR?,OTHER,JAR?,medium,last sign U with flag (jar-like?)
+23,Group 3,Mesopotamia,abroad,OTHER:A-with-strokes|OTHER:fish-tail-loop|TICK|JAR?|JAR?,OTHER,JAR?,medium,ends with two jar-like U signs
+25,Group 3,Mesopotamia,abroad,MAN|NUM3|OTHER:crossed-man|TICK|OTHER:double-arc|OTHER:dash|OTHER:caret|NUM3,MAN,NUM,medium,
+26,Group 3,Mesopotamia,abroad,OTHER:man-with-crossed-head|OTHER:leaf-on-stick|OTHER:man-with-branch|TICK|MAN|OTHER:arrow,OTHER,OTHER,medium,
+27,Group 3,Mesopotamia,exclude,,,,,pictorial (animal) with pseudo-signs

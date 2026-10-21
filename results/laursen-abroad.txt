@@ -1,0 +1,13 @@
+Home baseline (this repository's dataset, 1902 distinct texts, reading order): open with twins 8 (0.4%); end with the jar 666 (35.0%)
+
+Gulf Type seals found abroad: 21 inscriptions (Laursen 2010, Fig. 11)
+   open with twins: 5 (24%) · p(>= 5 if like home) = 5.1e-09
+   end with a jar-like sign: 3 (14%) · p(<= 3 if like home) = 0.035
+   medium/high-confidence readings only (14): twins first 4, jar-like last 3
+
+Gulf Type seals found in the Indus Valley: 5 inscriptions (Laursen 2010, Fig. 11)
+   open with twins: 0 (0%) · p(>= 0 if like home) = 1
+   end with a jar-like sign: 0 (0%) · p(<= 0 if like home) = 0.12
+   medium/high-confidence readings only (4): twins first 0, jar-like last 0
+
+Excluded from the tests: 28, 56, 27 (Linear Elamite, no text, pictorial)

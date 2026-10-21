@@ -16,6 +16,7 @@ python3 -I src/picture_test.py . > results/picture-test.txt
 python3 -I src/number_anchor.py . > results/number-anchor.md
 python3 -I src/numbered_names.py . > results/numbered-names.txt
 python3 -I src/prejar_slot.py . > results/prejar-slot.md
+python3 -I src/laursen_abroad.py . > results/laursen-abroad.txt
 python3 -I blind/symbols.py .
 python3 -I blind/match.py . > /dev/null
 echo "done: results/"

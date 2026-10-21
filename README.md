@@ -86,7 +86,7 @@ The same grouping method was first run on Old Tamil, where the answer is known. 
 that share a consonant strongly (11.8 sd above chance) and letters that share a vowel weakly (2.4 sd).
 It works, but only partly.
 
-## Toward the language (steps 1–6)
+## Toward the language (steps 1–7)
 
 What can be said about the language behind the signs, short of reading them?
 
@@ -142,6 +142,30 @@ What can be said about the language behind the signs, short of reading them?
    which fits a case ending or title marker, and equally a closing formula in a code.
    [`results/prejar-slot.md`](results/prejar-slot.md), [`results/prejar-slot-signs.png`](results/prejar-slot-signs.png)
 
+7. **Indus-script seals made abroad follow different rules.** Round "Gulf Type" seals with Indus
+   signs were found in Bahrain, Failaka, Mesopotamia and Iran. Their inscriptions are drawn in
+   Laursen (2010, Fig. 11); we transcribed all 29 into sign features, right to left, each sign with a
+   confidence mark ([`abroad/laursen-fig11-transcription.csv`](abroad/laursen-fig11-transcription.csv)).
+   Three are left out: one is in Linear Elamite, one carries no text, one is pictorial. Against this
+   repository's dataset:
+
+   | | inscriptions | open with the "twins" sign | end with a jar-like sign |
+   |---|---|---|---|
+   | home texts (this dataset) | 1,902 | 0.4% | 35% |
+   | Gulf Type seals found abroad | 21 | 24% (p ≈ 5 × 10⁻⁹) | 14% (p = 0.035) |
+   | Gulf Type seals found in the Indus Valley | 5 | 0 | 0 |
+
+   The "twins" sign (two human figures side by side) opening these inscriptions was first noted by
+   Parpola (1994) and set out by Laursen (2010), who calls it "the only rule-like regularity so far
+   attested in this 'western written language'" and concludes that the language of these seals was,
+   "with only a few exceptions ... of non-Harappan origin". Our transcription confirms the opening and
+   adds that these texts seldom close with the jar, the sign that ends a third of home texts: a change
+   in how the text is framed, not only in the names it carries. Whether that means another language,
+   names from another tradition, or a later way of writing (most Gulf Type seals date from about 2050 BC
+   on) is not decided by this. The transcription is one reader's reading of drawings, and the
+   jar-like count includes doubtful U shapes, so the shortfall is if anything understated.
+   [`results/laursen-abroad.txt`](results/laursen-abroad.txt)
+
 Taken together: order and position statistics can rule some kinds of language out, but they cannot
 choose between Dravidian, Indo-Aryan and Munda, which look alike on every measure tried. Choosing
 needs evidence about sounds, which the record does not yet hold.
@@ -183,6 +207,7 @@ Needs Python 3 with `numpy` and `Pillow`. Every script runs offline once the dat
 | `src/step2_endings.py` | `results/endings.md`: ending patterns against Sanskrit, Tamil, Santali |
 | `src/number_anchor.py` | `results/number-anchor.md`, `results/number-anchor-signs.png`: signs that follow numbers |
 | `src/numbered_names.py` | `results/numbered-names.txt`: fixed number compounds and the slot before the jar |
+| `src/laursen_abroad.py` | `results/laursen-abroad.txt`: Gulf Type seal inscriptions (Laursen 2010) against home texts |
 | `src/prejar_slot.py` | `results/prejar-slot.md`, `results/prejar-slot-signs.png`: every filler of the slot before the jar |
 | `src/picture_test.py` | `results/picture-test.txt`: repeated texts, text slots and object types against the carved animal |
 | (by hand) | `results/seal-coding-202.csv`: picture coding of 202 seals; `results/meluhha-evidence.md`: sources on Meluhha, quote or null |
@@ -212,7 +237,7 @@ Fuls, which rests on the corpora of Iravatham Mahadevan (1977) and Asko Parpola 
 This study uses only the sign sequences, sites and object types. The dataset's maintainer has proposed
 a reading of the script; this study neither uses nor evaluates it.
 
-Related statistical work: Rao et al., *Science* 324 (2009); Farmer, Sproat and Witzel (2004);
+Related work: Rao et al., *Science* 324 (2009); Farmer, Sproat and Witzel (2004); Parpola, in *Qala'at al-Bahrain* vol. 1 (1994), pp. 304–315; Laursen, *Arabian Archaeology and Epigraphy* 21 (2010): 96–134;
 Nair, arXiv:2604.17828 (2026); Tiwari, NLP4DH 2026.
 
 ## Licence
